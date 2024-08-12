@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: potential-broccoli
+spec:
+    containers:
+        - name: potential_broccoli
+        image: potential-broccoli
+        imagePullPolicy: Never
+        resources:
+            limits:
+                memory: "100Mi"
