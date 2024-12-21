@@ -32,7 +32,7 @@ async fn main() -> anyhow::Result<()> {
     }
     let program: &mut KProbe = ebpf.program_mut("potential_broccoli").unwrap().try_into()?;
     program.load()?;
-    program.attach("a", 0)?;
+    program.attach("sched_exec", 0)?;
 
     let ctrl_c = signal::ctrl_c();
     println!("Waiting for Ctrl-C...");

@@ -1,5 +1,7 @@
 # potential-broccoli
 
+![image](https://github.com/user-attachments/assets/9c4dc2b8-a629-4cdb-a9a9-ef347740c334)
+
 ## Prerequisites
 
 1. stable rust toolchains: `rustup toolchain install stable`
